@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="form.css">
+</head>
+<body>
+<div class="container">  
+  <form id="contact" action="insertEmployeeDetails.php" method="post"  >
+    <h3 align='center'>Enter Employee Details</h3>
+    <fieldset>
+      <input placeholder="Employee Name" type="text" name="name" tabindex="1" required autofocus>
+    </fieldset>
+    <fieldset>
+      <input placeholder="Employee Designation" type="text" name="designation" tabindex="2" required>
+    </fieldset>
+    <fieldset>
+      <input  placeholder="Reporting Manager" type="text" name="manager" tabindex="3" required>
+    </fieldset>
+    <fieldset>
+      <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+    </fieldset>
+  </form>
+</div>
+</body>
+</html>
